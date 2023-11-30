@@ -339,6 +339,17 @@ input[type="text"]:valid{
 label[for=username]{
     color: rgb(241, 24, 60);
 }
+input[type="number"], input[type="email"]{
+    outline: none;
+    border-color: rgb(241, 24, 60);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+input[type="number"]:valid, input[type="email"]:valid{
+    padding: 10px 25px; 
+    transition: 0.5s;
+    color: green;
+}
 input[type="password"]{
     outline: none;
     border-color: rgb(241, 24, 60);
