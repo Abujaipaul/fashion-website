@@ -296,7 +296,7 @@ footer span{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-top: 50px;
 }
 fieldset{
     display: inline-block;
@@ -369,5 +369,5 @@ input[type="submit"]:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:80vh;
+    margin-top: 50px;
 }
