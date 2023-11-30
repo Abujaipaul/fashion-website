@@ -364,6 +364,7 @@ input[type="submit"]:hover{
 }
 
 /* media query style for form */
+@media only screen and (max-width:400px){
 .form{
     padding: 20px;
     display: flex;
@@ -371,4 +372,14 @@ input[type="submit"]:hover{
     align-items: center;
     margin-top:60px;
     margin-bottom:20px;
+}
+}
+/* css for the smaller devices first bg */
+@media only screen and (max-width:420px){
+    .firstbg{
+        background-size: 420px 380px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 370px;
+        }
 }
