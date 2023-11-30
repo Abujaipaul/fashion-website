@@ -290,3 +290,84 @@ footer span{
     margin-left: 0;
 }
 }
+/* styles for login page */
+.form{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+fieldset{
+    display: inline-block;
+    padding: 70px 40px;
+    border-radius: 10px;
+    border-color: rgb(241, 24, 60);
+    border-width: 3px;
+    padding-bottom: 50px;
+}
+legend{
+   padding: 0px 20px;
+   margin-top: 30px;
+   color: rgb(241, 24, 60);
+   font-weight: bold;
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input{
+    margin-bottom: 10px;
+}
+input[type="text"]{
+    outline: none;
+    border-color: rgb(241, 24, 60);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+input[type="text"]:valid{
+    padding: 10px 25px; 
+    transition: 0.5s;
+    color: green;
+}
+label[for=username]{
+    color: rgb(241, 24, 60);
+}
+input[type="password"]{
+    outline: none;
+    border-color: rgb(241, 24, 60);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+input[type="password"]:valid{
+    padding: 10px 25px; 
+    transition: 0.5s;
+    color: green;
+}
+label[for=password]{
+    color: rgb(241, 24, 60);
+}
+input[type="submit"]{
+    margin-top: 10px;
+   padding: 5px 20px;
+   color:white;
+   border-color: rgb(241, 24, 60);
+   border-radius: 10px;
+   background-color: rgb(241, 24, 60);
+   font-weight: bold;
+}
+input[type="submit"]:hover{
+    background-color:white;
+    color: rgb(241, 24, 60);
+    transition: 1s;
+}
+
+/* media query style for form */
+.form{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+}
