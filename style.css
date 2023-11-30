@@ -350,6 +350,9 @@ input[type="number"]:valid, input[type="email"]:valid{
     transition: 0.5s;
     color: green;
 }
+#number{
+    margin-top: 10px;
+}
 input[type="password"]{
     outline: none;
     border-color: rgb(241, 24, 60);
