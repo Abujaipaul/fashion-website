@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+marquee{
+    color:rgb(241, 24, 60);
+    font-style: italic;
+    font-weight: bold;
+}
 .navbar{
     width: 100%;
     display: flex;
@@ -362,7 +367,32 @@ input[type="submit"]:hover{
     color: rgb(241, 24, 60);
     transition: 1s;
 }
-
+/* signup styles */
+label[for="male"]{
+    margin: 0px 60px 0px 5px;
+    color: rgb(241, 24, 60);
+}
+label[for="female"]{
+    margin: 5px 0px 0px 5px;
+    color:  rgb(241, 24, 60);
+}
+#signup_button{
+    background-color: rgb(241, 24, 60);
+    color: white;
+    padding: 3px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 41px;
+    border: 2px solid;
+    border-color: rgb(241, 24, 60);
+    box-shadow: 1px 1px 1px 1px black;
+}
+#signup_button:hover{
+    color: rgb(241, 24, 60);
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: none;
+}
 /* media query style for form */
 @media only screen and (max-width:400px){
 .form{
