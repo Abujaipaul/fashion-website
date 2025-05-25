@@ -62,10 +62,7 @@ marquee{
     color: rgb(241, 24, 60);
     border: 1px solid rgb(241, 24, 60);
     border-radius: 10px;
-    padding: 1px 24px 5px 4px;
-    background-image: url(./assets/arrow-right.svg);
-    background-repeat: no-repeat;
-    background-position: 69px 20px;
+    padding: 1px 6px 5px 6px;
     text-decoration: none;
     a{
         display: inline-block; 
@@ -91,7 +88,7 @@ marquee{
     width: 100%;
     height: 100vh;
 }
-.firstbg_text{
+/* .firstbg_text{
     display: inline-block;
    display: flex;
    justify-content: flex-end;
@@ -102,7 +99,7 @@ marquee{
    background-repeat: no-repeat;
    background-size: 30px;
    background-position: 1160px 305px;
-}
+} */
 .firstbg h1:hover{
    color: white;
    border-color:white;
@@ -204,17 +201,20 @@ marquee{
 #signup_footer{
     margin-top: 20px;
 }
+.footer_text{
+    padding-top:25px;
+}
 .footer_text span{
     color: rgb(241, 24, 60);
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
 }
 .footer_text h1{
-    font-size:50px;
+    font-size:30px;
 }
 .footer_icons h1{
     margin-bottom: 20px;
-    margin-left: 10px;
+   text-align: center;
 }
 .bg-icons{
     display: flex;
