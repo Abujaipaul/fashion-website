@@ -1,4 +1,4 @@
-#Mock up fashion webiste with sign up and login page and designs page.
+#Mock up fashion webiste with sign up and login page and designs page....
 
 
 
